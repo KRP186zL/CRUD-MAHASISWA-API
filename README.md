@@ -151,4 +151,4 @@ API ini menyediakan endpoint untuk mengelola data mahasiswa. Berikut adalah daft
 
 ## Kontak
 
-Jika Anda memiliki pertanyaan atau masalah, silakan hubungi [Instagram](https://www.instagram.com/username) saya.
+Jika Anda memiliki pertanyaan atau masalah, silakan hubungi [Instagram](https://www.instagram.com/krisnaaa_prtm27) saya.
