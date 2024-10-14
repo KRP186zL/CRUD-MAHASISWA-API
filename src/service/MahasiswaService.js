@@ -3,9 +3,10 @@ const createNim = require("../utils/createNim");
 class MahasiswaService {
   constructor() {
     this._mahasiswa = [];
+    this._jumlahMahasiswa = 0;
   }
   async postMahasiswa(data) {
-    const nim = createNim(this._mahasiswa.length + 1);
+    const nim = createNim(++this._jumlahMahasiswa);
     const registeredOn = new Date().toISOString();
 
     const newMahasiswa = {
