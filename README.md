@@ -52,7 +52,6 @@ API ini menyediakan endpoint untuk mengelola data mahasiswa. Berikut adalah daft
         "kelas": "string",
         "prodi": "string"
       },
-      ...
     ]
     ```
 
@@ -84,9 +83,9 @@ API ini menyediakan endpoint untuk mengelola data mahasiswa. Berikut adalah daft
 - **Method**: `GET`
 - **Deskripsi**: Mencari mahasiswa berdasarkan nama, kelas, atau prodi.
 - **Query Parameters**:
-  - [`nama`](command:_github.copilot.openSymbolFromReferences?%5B%22%22%2C%5B%7B%22uri%22%3A%7B%22scheme%22%3A%22file%22%2C%22authority%22%3A%22%22%2C%22path%22%3A%22%2Fhome%2Fshylpie%2FSIBxDicoding%2FModule%2FKelas-Tambahan%2Ffundamental-backend-dengan-javascript%2Flatihan-plugin-with-modular%2FREADME.md%22%2C%22query%22%3A%22%22%2C%22fragment%22%3A%22%22%7D%2C%22pos%22%3A%7B%22line%22%3A52%2C%22character%22%3A9%7D%7D%5D%2C%22bcff5228-cb23-45af-8e50-a48ed16dc11b%22%5D "Go to definition"): Nama mahasiswa (opsional)
-  - [`kelas`](command:_github.copilot.openSymbolFromReferences?%5B%22%22%2C%5B%7B%22uri%22%3A%7B%22scheme%22%3A%22file%22%2C%22authority%22%3A%22%22%2C%22path%22%3A%22%2Fhome%2Fshylpie%2FSIBxDicoding%2FModule%2FKelas-Tambahan%2Ffundamental-backend-dengan-javascript%2Flatihan-plugin-with-modular%2FREADME.md%22%2C%22query%22%3A%22%22%2C%22fragment%22%3A%22%22%7D%2C%22pos%22%3A%7B%22line%22%3A53%2C%22character%22%3A9%7D%7D%5D%2C%22bcff5228-cb23-45af-8e50-a48ed16dc11b%22%5D "Go to definition"): Kelas mahasiswa (opsional)
-  - [`prodi`](command:_github.copilot.openSymbolFromReferences?%5B%22%22%2C%5B%7B%22uri%22%3A%7B%22scheme%22%3A%22file%22%2C%22authority%22%3A%22%22%2C%22path%22%3A%22%2Fhome%2Fshylpie%2FSIBxDicoding%2FModule%2FKelas-Tambahan%2Ffundamental-backend-dengan-javascript%2Flatihan-plugin-with-modular%2FREADME.md%22%2C%22query%22%3A%22%22%2C%22fragment%22%3A%22%22%7D%2C%22pos%22%3A%7B%22line%22%3A54%2C%22character%22%3A9%7D%7D%5D%2C%22bcff5228-cb23-45af-8e50-a48ed16dc11b%22%5D "Go to definition"): Program studi mahasiswa (opsional)
+  - [`nama`]: Nama mahasiswa (opsional)
+  - [`kelas`]: Kelas mahasiswa (opsional)
+  - [`prodi`]: Program studi mahasiswa (opsional)
 - **Response**:
   - **200 OK**:
     ```json
@@ -97,7 +96,6 @@ API ini menyediakan endpoint untuk mengelola data mahasiswa. Berikut adalah daft
         "kelas": "string",
         "prodi": "string"
       },
-      ...
     ]
     ```
   - **404 Not Found**: Jika tidak ada mahasiswa yang sesuai dengan kriteria pencarian.
