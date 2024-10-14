@@ -1,5 +1,3 @@
-const mahasiswa = require("../api/mahasiswa");
-
 const createNim = (lengthData) => {
   let templateNim = "210202";
   if (lengthData < 10) {
