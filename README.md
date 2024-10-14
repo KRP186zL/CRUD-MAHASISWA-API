@@ -1,4 +1,3 @@
-````markdown
 # Mahasiswa API
 
 API ini menyediakan endpoint untuk mengelola data mahasiswa. Berikut adalah daftar endpoint yang tersedia:
@@ -21,7 +20,6 @@ API ini menyediakan endpoint untuk mengelola data mahasiswa. Berikut adalah daft
     "penghasilanOrtu": "string"
   }
   ```
-````
 
 - **Response**:
   - **201 Created**:
